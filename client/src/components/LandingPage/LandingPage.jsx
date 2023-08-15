@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'; 
-//import backgroundImage from '../../assets/background.jpg'; 
+import styles from "./LandingPage.module.css"
+
 
 const LandingPage = () => {
   return (
-    <div className="landing-page">
-      {/*<img src={backgroundImage} alt="Imagen de fondo" className="background-image" />*/}
+    <div className={styles.landingPage}>
       <div className="content">
         <h1>Bienvenido a nuestra aplicación de recetas</h1>
         <p>Explora recetas y encuentra la perfecta para ti</p>

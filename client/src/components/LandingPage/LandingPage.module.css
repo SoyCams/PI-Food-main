@@ -1,9 +1,10 @@
-.landing-page {
+.landingPage {
     position: relative;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("https://res.cloudinary.com/djyx9jath/image/upload/v1692123080/rickmorty/PI%20FOOD/2qfn3-vct7w_vlu8jp.webp");
   }
   
   .background-image {
