@@ -4,13 +4,17 @@ import styles from "./LandingPage.module.css"
 
 const LandingPage = () => {
   return (
-    <div className={styles.landingPage}>
-      <div className="content">
-        <h1>Bienvenido a nuestra aplicación de recetas</h1>
-        <p>Explora recetas y encuentra la perfecta para ti</p>
-        <Link to="/home">
-          <button className="enter-button">Ingresar</button> </Link>
-      </div>
+    <div className={styles.contenedor}>
+      <img
+        className={styles.imagen}
+        src="https://res.cloudinary.com/djyx9jath/image/upload/v1692213568/rickmorty/PI%20FOOD/Texto_del_p%C3%A1rrafo_1_osjbz5.jpg"
+        alt="Food"
+      />
+        <h1>Bienvenido a Cams Food</h1>
+        <p>Encuentra la receta perfecta para ti</p>
+        <Link to="/home" className={styles.boton}>
+          Ingresar </Link>
+     
     </div>
   );
 };
